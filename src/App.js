@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './components/pages/Home';
-import Contact from './components/pages/Contact';
-import Projects from './components/pages/Projects';
+import Home from './components/Home/Home';
+import Contact from './components/Contact/Contact';
+import Projects from './components/Projects/Projects';
 import 'bootstrap/dist/js/bootstrap.bundle'
 
 function App() {
