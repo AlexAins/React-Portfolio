@@ -12,20 +12,21 @@ class Portfolio extends React.Component {
 
   render(){
     return (
-      <div>
+      <div className="container">
         <h1>Here are some of my recent Projects</h1>
         <p>
           Here I include project cards generated with info from a JSON file to make
         </p>
-        {projects.map((project) => {
-          return (
-            <ProjectCard key={project.id} {...project}/>
-          )
-        })}
+        <div className="row row-cols-md-2 row-cols-lg-3 g-3">
+          {projects.map((project) => {
+            return (
+              <ProjectCard key={project.id} {...project}/>
+            )
+          })}
+        </div>
       </div>
     );
   }
-  
 }
 
 export default Portfolio;
