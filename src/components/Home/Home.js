@@ -9,7 +9,7 @@ function Home() {
           Add greeting, name Here
         </p>
         <p className="col-6">
-          Add image of bitmoji here
+          Add image of avatar here
         </p>
       </div>
       <div className="row">
