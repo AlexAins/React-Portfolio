@@ -2,49 +2,55 @@
     {
         "id": 1,
         "image": ,
-        "title": ,
+        "title": "Weather Dashboard",
         "desc": ,
-        "github": ,
-        "deployed": ,
+        "github": "https://github.com/AlexAins/Weather-Dashboard" ,
+        "deployed": true,
+        "deployedURL": "https://alexains.github.io/Weather-Dashboard/"
     },
     {
         "id": 2,
         "image": ,
-        "title": ,
+        "title": "Daily Planner App",
         "desc": ,
-        "github": ,
-        "deployed": ,
+        "github": "https://github.com/AlexAins/Daily-Planner-App",
+        "deployed": true,
+        "deployedURL": "https://alexains.github.io/Daily-Planner-App/"
     },
     {
         "id": 3,
         "image": ,
-        "title": ,
+        "title": "Coding Quiz App",
         "desc": ,
-        "github": ,
-        "deployed": ,
+        "github": "https://github.com/AlexAins/Coding-Quiz",
+        "deployed": true,
+        "deployedURL": "https://alexains.github.io/Coding-Quiz/"
     },
     {
         "id": 4,
         "image": ,
-        "title": ,
+        "title": "Password Generator",
         "desc": ,
-        "github": ,
-        "deployed": ,
+        "github": "https://github.com/AlexAins/Password-Generator",
+        "deployed": true,
+        "deployedURL": "https://alexains.github.io/Password-Generator/"
     },
     {
         "id": 5,
         "image": ,
-        "title": ,
+        "title": "Team Profile Generator",
         "desc": ,
-        "github": ,
-        "deployed": ,
+        "github": "https://github.com/AlexAins/Team-Profile-Generator",
+        "deployed": false,
+        "deployedURL": ""
     },
     {
         "id": 6,
         "image": ,
-        "title": ,
+        "title": "READMe Generator",
         "desc": ,
-        "github": ,
-        "deployed": ,
+        "github": "https://github.com/AlexAins/README-Generator",
+        "deployed": false,
+        "deployedURL": "" 
     }
 ]
