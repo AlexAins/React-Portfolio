@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "image": "1",
+        "image": "weatherApp.png",
         "title": "Weather Dashboard",
-        "desc": "1",
+        "desc": "A dynamic weather dashboard application to provide current weather forecast and a 5 day future forecast. This application runs with the use of the Open Weather API. ",
         "github": "https://github.com/AlexAins/Weather-Dashboard" ,
         "deployed": true,
         "deployedURL": "https://alexains.github.io/Weather-Dashboard/"
@@ -12,7 +12,7 @@
         "id": 2,
         "image": "2",
         "title": "Daily Planner App",
-        "desc": "2",
+        "desc": "This is a basic daily planner allowing the user to add events to organize their time. A dynamic application using JQuery to update the HTML and CSS, to show the current time, and saving user inputs allowing them to return to their planner at a later time.",
         "github": "https://github.com/AlexAins/Daily-Planner-App",
         "deployed": true,
         "deployedURL": "https://alexains.github.io/Daily-Planner-App/"
@@ -21,7 +21,7 @@
         "id": 3,
         "image": "3",
         "title": "Coding Quiz App",
-        "desc": "3",
+        "desc": "A coding quiz about various HTML, CSS and JavaScript subjects. It gives the user 100 seconds to answer 10 questions, removing time for an incorrect answer. This then provides the user the option to save their score along with initials to a leaderboard.",
         "github": "https://github.com/AlexAins/Coding-Quiz",
         "deployed": true,
         "deployedURL": "https://alexains.github.io/Coding-Quiz/"
@@ -30,7 +30,7 @@
         "id": 4,
         "image": "4",
         "title": "Password Generator",
-        "desc": "4",
+        "desc": "Application to provide the user a random password, allowing the user to choose the length of password and type of characters to include within this password.",
         "github": "https://github.com/AlexAins/Password-Generator",
         "deployed": true,
         "deployedURL": "https://alexains.github.io/Password-Generator/"
@@ -39,7 +39,7 @@
         "id": 5,
         "image": "5",
         "title": "Team Profile Generator",
-        "desc": "5",
+        "desc": "This Node.JS command-line application generates a team profile. Allowing the user to add one manager and various employees and include information such as name, ID, email and more. When the user completes the inputs, a HTML page is generated with the provided information. This project is developed using Node.JS and NPM with the use of Inquirer, Path, FS packages and Jest. ",
         "github": "https://github.com/AlexAins/Team-Profile-Generator",
         "deployed": false,
         "deployedURL": ""
@@ -48,7 +48,7 @@
         "id": 6,
         "image": "6",
         "title": "READMe Generator",
-        "desc": "6",
+        "desc": "This is a Node.JS command-line application to generate high-quality READMEs for your projects. This is done by asking the project creator questions to allow the generator to gain the necessary information to create a professional README. This project is developed using Node.JS and NPM with the use of Inquirer and FS packages.",
         "github": "https://github.com/AlexAins/README-Generator",
         "deployed": false,
         "deployedURL": "" 

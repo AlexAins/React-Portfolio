@@ -7,7 +7,7 @@ class Portfolio extends React.Component {
   state = {projects};
 
   removeProject(removeId){
-    this.setState({projects: projects.filter(project => project.id != removeId)})
+    this.setState({projects: projects.filter(project => project.id !== removeId)})
   }
 
   render(){
