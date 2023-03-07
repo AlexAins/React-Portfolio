@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import projects from "./projects.json";
 
+
 class Portfolio extends React.Component {
 
   state = {projects};

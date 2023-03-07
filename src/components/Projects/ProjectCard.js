@@ -1,7 +1,6 @@
 import React from "react";
 
 function ProjectCard(props){
-    console.log(props.deployed)
     return (
         <div className="col">
             <div className="card h-100">
