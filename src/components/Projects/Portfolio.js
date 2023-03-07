@@ -13,9 +13,9 @@ class Portfolio extends React.Component {
   render(){
     return (
       <div className="container">
-        <h1>Here are some of my recent Projects</h1>
+        <h1>My Portfolio</h1>
         <p>
-          Here I include project cards generated with info from a JSON file to make
+          Here are a few projects I've recently worked on.
         </p>
         <div className="row row-cols-md-2 row-cols-lg-3 g-3">
           {projects.map((project) => {

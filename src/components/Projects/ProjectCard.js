@@ -1,7 +1,7 @@
 import React from "react";
 
 function ProjectCard(props){
-    console.log(props)
+    console.log(props.deployed)
     return (
         <div className="col">
             <div className="card h-100">
@@ -10,9 +10,9 @@ function ProjectCard(props){
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text">{props.desc}</p>
                 </div>
-                <div className="card-footer">
+                <div className="card-footer text-center d-flex justify-content-evenly">
                     <a href={props.github} target="_blank" className="btn btn-primary">GitHub</a>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    {props.deployed ? (<a href={props.deployedURL} target="_blank" className="btn btn-primary">Visit App</a>) : ("")}
                 </div>
             </div>
         </div>
