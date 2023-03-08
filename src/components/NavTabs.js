@@ -1,39 +1,23 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function NavTabs() {
   return (
     <ul className="navbar-nav ms-auto">
       <li className="nav-item">
-        <NavLink
-          to="/react-portfolio"
-          end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
+        <Link to="/">
           Home
-        </NavLink>
+        </Link>
       </li>
       <li className="nav-item">
-        <NavLink
-          to="/react-portfolio/projects"
-          className={({ isActive }) =>
-          isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
+        <Link to="/projects">
           Projects
-        </NavLink>
+        </Link>
       </li>
       <li className="nav-item">
-        <NavLink
-          to="/react-portfolio/contact"
-          className={({ isActive }) =>
-          isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
+        <Link to="/contact">
           Contact Me
-        </NavLink>
+        </Link>
       </li>
     </ul>
   );

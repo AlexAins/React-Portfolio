@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
@@ -12,10 +12,10 @@ function App() {
     <Router>
       <div>
         <Header />
-        <Routes basename="react-portfolio">
-          <Route path="/react-portfolio" element={<Home />} />
-          <Route path="/react-portfolio/projects" element={<Portfolio />} />
-          <Route path="/react-portfolio/contact" element={<Contact />} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route exact path="/projects" element={<Portfolio />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
