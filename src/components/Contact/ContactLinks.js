@@ -6,7 +6,7 @@ import CV from "../../assets/AlexanderAinslieCV.pdf"
 
 function ContactLinks(){
     return(
-        <ul className="socialLinks">
+        <ul className="contactLinks">
             <li className="socialIcons">
                 <a
                     href="https://github.com/AlexAins"

@@ -5,7 +5,7 @@ import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import Portfolio from './components/Projects/Portfolio';
 import 'bootstrap/dist/js/bootstrap.bundle'
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }
