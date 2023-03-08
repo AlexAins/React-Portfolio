@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/react-portfolio/static/js/main.01a15fb9.js",
+    "main.js": "/react-portfolio/static/js/main.1e2bd03f.js",
     "static/media/peeps-avatar-alpha.png": "/react-portfolio/static/media/peeps-avatar-alpha.eb09f6c50a1993ed554d.png",
     "index.html": "/react-portfolio/index.html",
     "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
-    "main.01a15fb9.js.map": "/react-portfolio/static/js/main.01a15fb9.js.map"
+    "main.1e2bd03f.js.map": "/react-portfolio/static/js/main.1e2bd03f.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.01a15fb9.js"
+    "static/js/main.1e2bd03f.js"
   ]
 }
