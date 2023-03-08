@@ -1,15 +1,17 @@
 import React from "react";
+import ContactCard from "./ContactCard";
+import ContactLinks from "./ContactLinks";
 
 function Contact() {
   return (
     <div>
-      <h1>Get in Touch</h1>
-      <p>
-        Include form to send email directly
-      </p>
-      <h2>Feel free to connect with me</h2>
-      <div>
-        Links to github, linkedin, cv
+      <div className="row">
+        <h1>Connect with Me</h1>
+        <ContactLinks />
+      </div>
+      <div className="row">
+        <h2>Feel free to get in touch</h2>
+        <ContactCard />
       </div>
     </div>
   );

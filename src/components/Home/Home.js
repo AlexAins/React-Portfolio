@@ -11,7 +11,7 @@ function Home() {
           <p>A recent Masters graduate looking to pursue a career in Frontend Development</p>
         </div>
         <div className="col-6">
-          <img src={avatar} alt="Avatar of a male"/>
+          <img src={avatar} alt="Avatar of a male" className="w-100"/>
         </div>
       </div>
       <div className="row">
