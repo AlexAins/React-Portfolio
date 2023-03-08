@@ -4,7 +4,7 @@ import avatar from "../../assets/peeps-avatar-alpha.png"
 function Home() {
   return (
     <div className="container mt-5">
-      <div className="row">
+      <div className="row align-items-center">
         <div className="col-6">
           <h1>Hi, I'm Alex</h1>
           <p>Junior Frontend Developer </p>
@@ -14,7 +14,7 @@ function Home() {
           <img src={avatar} alt="Avatar of a male" className="w-100"/>
         </div>
       </div>
-      <div className="row">
+      <div className="row mt-5">
         <h2>Let me Introduce myself</h2>
         <div className="col-12">
           <p>Hi There! My name is Alexander Ainslie and i'm currently learning how to become a frontend engineer.</p>
@@ -23,7 +23,7 @@ function Home() {
           <p>Hopefully these help me start my career within frontend engineering !</p>
         </div>
       </div>
-      <div className="row">
+      <div className="row mt-5">
         <h2>Current Skill Set</h2>
         <ul>
           <li>HTML</li>
