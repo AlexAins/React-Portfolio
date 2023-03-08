@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/react-portfolio/static/js/main.1e2bd03f.js",
-    "static/media/peeps-avatar-alpha.png": "/react-portfolio/static/media/peeps-avatar-alpha.eb09f6c50a1993ed554d.png",
+    "main.js": "/react-portfolio/static/js/main.06f737bc.js",
+    "static/media/peeps-avatar-alpha.png": "/react-portfolio/static/media/peeps-avatar-alpha.dbc68bd96d31433bb5a4.png",
+    "static/media/AlexanderAinslieCV.pdf": "/react-portfolio/static/media/AlexanderAinslieCV.b3a7af5af6666e64b648.pdf",
     "index.html": "/react-portfolio/index.html",
     "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
-    "main.1e2bd03f.js.map": "/react-portfolio/static/js/main.1e2bd03f.js.map"
+    "main.06f737bc.js.map": "/react-portfolio/static/js/main.06f737bc.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.1e2bd03f.js"
+    "static/js/main.06f737bc.js"
   ]
 }
