@@ -9,7 +9,7 @@ function Footer(){
         <div className="container">
             <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div className="col-md-6 d-flex align-items-center">
-                    <h4>Developed and Designed by Alexander Ainslie</h4>
+                    <h4 className="fst-italic">Developed and Designed by Alexander Ainslie</h4>
                 </div>
                 <div className="col-md-3 offset-md-3">
                     <ul className="footerLinks nav list-unstyled d-flex justify-content-center">

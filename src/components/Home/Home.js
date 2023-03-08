@@ -3,7 +3,7 @@ import avatar from "../../assets/peeps-avatar-alpha.png"
 
 function Home() {
   return (
-    <div className="container">
+    <div className="container mt-5">
       <div className="row">
         <div className="col-6">
           <h1>Hi, I'm Alex</h1>
