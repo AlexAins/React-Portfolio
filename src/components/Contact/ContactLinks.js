@@ -6,13 +6,13 @@ import CV from "../../assets/AlexanderAinslieCV.pdf"
 
 function ContactLinks(){
     return(
-        <ul className="contactLinks">
+        <ul className="contactLinks nav list-unstyled d-flex justify-content-center">
             <li className="socialIcons">
                 <a
                     href="https://github.com/AlexAins"
                     target="_blank"
                     rel="noreferrer"
-                    className="contactSocialIcons"
+                    className="contactSocialIcons mx-3"
                 >
                     <AiFillGithub />
                 </a>
@@ -22,7 +22,7 @@ function ContactLinks(){
                     href="linkedin.com/in/alexander-ainslie/"
                     target="_blank"
                     rel="noreferrer"
-                    className="contactSocialIcons"
+                    className="contactSocialIcons mx-3"
                 >
                     <FaLinkedinIn />
                 </a>
@@ -32,7 +32,7 @@ function ContactLinks(){
                     href={CV}
                     target="_blank"
                     rel="noreferrer"
-                    className="contactSocialIcon"
+                    className="contactSocialIcon mx-3"
                 >
                     <CgFileDocument />
                 </a>

@@ -11,8 +11,8 @@ function Footer(){
                 <div className="col-md-6 d-flex align-items-center">
                     <h4>Developed and Designed by Alexander Ainslie</h4>
                 </div>
-                <div className="col-md-6">
-                    <ul className="footerLinks nav list-unstyled d-flex justify-content-end">
+                <div className="col-md-3 offset-md-3">
+                    <ul className="footerLinks nav list-unstyled d-flex justify-content-center">
                         <li className="footerIcons mx-2">
                             <a
                                 href="https://github.com/AlexAins"
