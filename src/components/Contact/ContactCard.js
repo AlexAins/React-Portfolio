@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "./ContactForm";
 
 
 function ContactCard(){
@@ -6,6 +7,7 @@ function ContactCard(){
         <div className="row">
             <div className="col">
                 <div className="card">
+                    <ContactForm />
                 </div>
             </div>
         </div>
