@@ -20,28 +20,37 @@ function ContactForm(){
     return (
         <div className="contactForm" >
           <form onSubmit={handleOnSubmit}>
-            <input
-              id='form-input-control-email'
-              label='Email'
-              name='from_email'
-              placeholder='Email…'
-              required
-            />
-            <input
-              id='form-input-control-last-name'
-              label='Name'
-              name='from_name'
-              placeholder='Name…'
-              required
-            />
-            <textarea
-              id='form-textarea-control-opinion'
-              label='Message'
-              name='message'
-              placeholder='Message…'
-              required
-            />
-            <button type='submit' color='green'>Submit</button>
+            <div className="">
+              <label for="inputEmail" class="form-label">Email address</label>
+              <input 
+                id="inputEmail"
+                class="form-control"
+                type="email"
+                name='from_email'
+                required
+              />
+            </div>
+            <div className="">
+              <label for="inputName" class="form-label">Name</label>
+              <input 
+                id="inputName"
+                class="form-control"
+                type="name"
+                name='from_name'
+                required
+              />
+            </div>
+            <div className="">
+              <label for="inputMessage" class="form-label">Name</label>
+              <textarea 
+                id="inputMessage"
+                class="form-control"
+                type="message"
+                name='message'
+                required
+              />
+            </div>
+            <button className="btn" type='submit'>Submit</button>
           </form>
         </div>
     );
