@@ -4,7 +4,7 @@ import ContactLinks from "./ContactLinks";
 
 function Contact() {
   return (
-    <div>
+    <div className="container">
       <div className="row">
         <h1>Connect with Me</h1>
         <ContactLinks />

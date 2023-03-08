@@ -27,7 +27,7 @@ function ContactLinks(){
                     <FaLinkedinIn />
                 </a>
             </li>
-            <li>
+            <li className="socialIcons"> 
                 <a
                     href={CV}
                     target="_blank"

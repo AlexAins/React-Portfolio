@@ -11,9 +11,9 @@ function Footer(){
                 <div className="col-md-6 d-flex align-items-center">
                     <h4>Developed and Designed by Alexander Ainslie</h4>
                 </div>
-                <div className="nav col-md-6 justify-content-end d-flex">
-                    <ul className="contactLinks">
-                        <li className="socialIcons">
+                <div className="col-md-6">
+                    <ul className="footerLinks nav list-unstyled d-flex justify-content-end">
+                        <li className="footerIcons mx-2">
                             <a
                                 href="https://github.com/AlexAins"
                                 target="_blank"
@@ -23,7 +23,7 @@ function Footer(){
                                 <AiFillGithub />
                             </a>
                         </li>
-                         <li className="socialIcons">
+                         <li className="footerIcons mx-2">
                             <a
                                 href="linkedin.com/in/alexander-ainslie/"
                                 target="_blank"
@@ -33,7 +33,7 @@ function Footer(){
                                 <FaLinkedinIn />
                             </a>
                             </li>
-                            <li>
+                            <li className="footerIcons mx-2"> 
                                 <a
                                     href={CV}
                                     target="_blank"
