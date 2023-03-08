@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "../projects/weatherApp.png",
+        "image": "./projects/weatherApp.png",
         "title": "Weather Dashboard",
         "desc": "A dynamic weather dashboard application to provide current weather forecast and a 5 day future forecast. This application runs with the use of the Open Weather API. ",
         "github": "https://github.com/AlexAins/Weather-Dashboard" ,
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "image": "../projects/dailyPlanner.png",
+        "image": "./projects/dailyPlanner.png",
         "title": "Daily Planner App",
         "desc": "This is a basic daily planner allowing the user to add events to organize their time. A dynamic application using JQuery to update the HTML and CSS, to show the current time, and saving user inputs allowing them to return to their planner at a later time.",
         "github": "https://github.com/AlexAins/Daily-Planner-App",
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "image": "../projects/codingQuiz.png",
+        "image": "./projects/codingQuiz.png",
         "title": "Coding Quiz App",
         "desc": "A coding quiz about various HTML, CSS and JavaScript subjects. It gives the user 100 seconds to answer 10 questions, removing time for an incorrect answer. This then provides the user the option to save their score along with initials to a leaderboard.",
         "github": "https://github.com/AlexAins/Coding-Quiz",
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "image": "passwordGenerator.png",
+        "image": "./projects/passwordGenerator.png",
         "title": "Password Generator",
         "desc": "Application to provide the user a random password, allowing the user to choose the length of password and type of characters to include within this password.",
         "github": "https://github.com/AlexAins/Password-Generator",
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "image": "teamGenerator.png",
+        "image": "./projects/teamGenerator.png",
         "title": "Team Profile Generator",
         "desc": "This Node.JS command-line application generates a team profile. Allowing the user to add one manager and various employees and include information such as name, ID, email and more. When the user completes the inputs, a HTML page is generated with the provided information. This project is developed using Node.JS and NPM with the use of Inquirer, Path, FS packages and Jest. ",
         "github": "https://github.com/AlexAins/Team-Profile-Generator",
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "image": "READMEgenerator.webp",
+        "image": "./projects/READMEgenerator.webp",
         "title": "READMe Generator",
         "desc": "This is a Node.JS command-line application to generate high-quality READMEs for your projects. This is done by asking the project creator questions to allow the generator to gain the necessary information to create a professional README. This project is developed using Node.JS and NPM with the use of Inquirer and FS packages.",
         "github": "https://github.com/AlexAins/README-Generator",
