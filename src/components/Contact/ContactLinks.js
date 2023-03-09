@@ -19,7 +19,7 @@ function ContactLinks(){
             </li>
             <li className="socialIcons">
                 <a
-                    href="linkedin.com/in/alexander-ainslie/"
+                    href="https://linkedin.com/in/alexander-ainslie/"
                     target="_blank"
                     rel="noreferrer"
                     className="contactSocialIcons mx-3"
