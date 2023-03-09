@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/react-portfolio/static/js/main.d94fd3c9.js",
+    "main.css": "/react-portfolio/static/css/main.81870af2.css",
+    "main.js": "/react-portfolio/static/js/main.55ffe849.js",
     "static/media/peeps-avatar-alpha.png": "/react-portfolio/static/media/peeps-avatar-alpha.dbc68bd96d31433bb5a4.png",
     "static/media/AlexanderAinslieCV.pdf": "/react-portfolio/static/media/AlexanderAinslieCV.b3a7af5af6666e64b648.pdf",
     "static/media/logoBlue.png": "/react-portfolio/static/media/logoBlue.fc1218a2d09489e66545.png",
+    "static/media/logoBlack.png": "/react-portfolio/static/media/logoBlack.ce34a654ba0565132038.png",
     "index.html": "/react-portfolio/index.html",
-    "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
-    "main.d94fd3c9.js.map": "/react-portfolio/static/js/main.d94fd3c9.js.map"
+    "main.81870af2.css.map": "/react-portfolio/static/css/main.81870af2.css.map",
+    "main.55ffe849.js.map": "/react-portfolio/static/js/main.55ffe849.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.d94fd3c9.js"
+    "static/css/main.81870af2.css",
+    "static/js/main.55ffe849.js"
   ]
 }
