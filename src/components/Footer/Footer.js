@@ -14,7 +14,7 @@ function Footer(){
                     <h4 className="footer-title">Developed and Designed by Alexander Ainslie</h4>
                 </div>
                 <div className="col-md-4 d-flex align-items-center justify-content-center">
-                    <img src={logoBlack} alt="Logo in black and white" style={{height: '2px'}}/>
+                    <img src={logoBlack} alt="Logo in black and white" style={{height: '25px'}}/>
                 </div>
                 <div className="col-md-4">
                     <ul className="footerLinks nav list-unstyled d-flex justify-content-end">
