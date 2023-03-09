@@ -18,19 +18,9 @@ function ContactForm(){
     };
     
     return (
-        <div className="contactForm" >
+        <div className="container contactForm" >
           <form onSubmit={handleOnSubmit}>
-            <div className="">
-              <label for="inputEmail" class="form-label">Email address</label>
-              <input 
-                id="inputEmail"
-                class="form-control"
-                type="email"
-                name='from_email'
-                required
-              />
-            </div>
-            <div className="">
+            <div className="container my-2">
               <label for="inputName" class="form-label">Name</label>
               <input 
                 id="inputName"
@@ -40,8 +30,18 @@ function ContactForm(){
                 required
               />
             </div>
-            <div className="">
-              <label for="inputMessage" class="form-label">Name</label>
+            <div className="container my-2">
+              <label for="inputEmail" class="form-label">Email Address</label>
+              <input 
+                id="inputEmail"
+                class="form-control"
+                type="email"
+                name='from_email'
+                required
+              />
+            </div>
+            <div className="container my-2">
+              <label for="inputMessage" class="form-label">Message</label>
               <textarea 
                 id="inputMessage"
                 class="form-control"
@@ -50,7 +50,9 @@ function ContactForm(){
                 required
               />
             </div>
-            <button className="btn" type='submit'>Submit</button>
+            <div className="container d-flex justify-content-center my-2">
+              <button className="btn btn-outline-success" type='submit'>Get In Touch</button>
+            </div>
           </form>
         </div>
     );
