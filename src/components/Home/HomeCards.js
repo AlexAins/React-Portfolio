@@ -14,7 +14,7 @@ import {
 function HomeCards(){
     return(
         <div className="row g-3 justify-content-md-center">
-            <div className="col-lg-2">
+            <div className="col-md-2 col-sm-6">
                 <div className="card h-100">
                     <div className="card-body">
                         <SiHtml5 />
@@ -24,7 +24,7 @@ function HomeCards(){
                     </div>
                 </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-md-2 col-sm-6">
                 <div className="card h-100">
                     <div className="card-body">
                         <SiCss3 />
@@ -34,7 +34,7 @@ function HomeCards(){
                     </div>
                 </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-md-2 col-sm-6">
                 <div className="card h-100">
                     <div className="card-body">
                         <SiJavascript />
@@ -44,7 +44,7 @@ function HomeCards(){
                     </div>
                 </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-md-2 col-sm-6">
                 <div className="card h-100">
                     <div className="card-body">
                         <SiBootstrap />
@@ -54,7 +54,7 @@ function HomeCards(){
                     </div>
                 </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-md-2 col-sm-6">
                 <div className="card h-100">
                     <div className="card-body">
                         <SiNodedotjs />
@@ -64,7 +64,7 @@ function HomeCards(){
                     </div>
                 </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-md-2 col-sm-6">
                 <div className="card h-100">
                     <div className="card-body">
                         <SiNpm />
@@ -74,7 +74,7 @@ function HomeCards(){
                     </div>
                 </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-md-2 col-sm-6">
                 <div className="card h-100">
                     <div className="card-body">
                         <SiReact />
@@ -84,7 +84,7 @@ function HomeCards(){
                     </div>
                 </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-md-2 col-sm-6">
                 <div className="card h-100">
                     <div className="card-body">
                         <SiGit />
@@ -94,7 +94,7 @@ function HomeCards(){
                     </div>
                 </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-md-2 col-sm-6">
                 <div className="card h-100">
                     <div className="card-body">
                         <SiGithub />
