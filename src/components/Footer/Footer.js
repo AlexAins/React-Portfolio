@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
-import CV from "../assets/AlexanderAinslieCV.pdf"
+import CV from "../../assets/AlexanderAinslieCV.pdf"
 
 function Footer(){
     return(

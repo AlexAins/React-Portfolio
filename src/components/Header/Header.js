@@ -1,6 +1,6 @@
 import React from 'react';
 import NavTabs from './NavTabs';
-import LogoBlue from '../assets/logoBlue.png'
+import LogoBlue from '../../assets/logoBlue.png'
 
 function Header(){
     return(
