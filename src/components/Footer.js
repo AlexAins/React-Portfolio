@@ -13,34 +13,34 @@ function Footer(){
                 </div>
                 <div className="col-md-3 offset-md-3">
                     <ul className="footerLinks nav list-unstyled d-flex justify-content-center">
-                        <li className="footerIcons mx-2">
+                        <li className="footerIcons mx-3">
                             <a
                                 href="https://github.com/AlexAins"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="footerSocialIcons"
                             >
-                                <AiFillGithub />
+                                <AiFillGithub size={20} color={'black'}/>
                             </a>
                         </li>
-                         <li className="footerIcons mx-2">
+                         <li className="footerIcons mx-3">
                             <a
                                 href="linkedin.com/in/alexander-ainslie/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="footerSocialIcons"
                             >
-                                <FaLinkedinIn />
+                                <FaLinkedinIn size={20} color={'black'}/>
                             </a>
                             </li>
-                            <li className="footerIcons mx-2"> 
+                            <li className="footerIcons mx-3"> 
                                 <a
                                     href={CV}
                                     target="_blank"
                                     rel="noreferrer"
                                     className="footerSocialIcon"
                                 >
-                                    <CgFileDocument />
+                                    <CgFileDocument size={20} color={'black'}/>
                                 </a>
                             </li>
                     </ul>

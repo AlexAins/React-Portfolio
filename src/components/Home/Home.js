@@ -1,5 +1,6 @@
 import React from "react";
 import avatar from "../../assets/peeps-avatar-alpha.png"
+import HomeCards from "./HomeCards";
 
 function Home() {
   return (
@@ -25,20 +26,12 @@ function Home() {
       </div>
       <div className="row mt-5">
         <h2>Current Skill Set</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Bootstrap</li>
-          <li>JavaScript</li>
-          <li>Node.js</li>
-          <li>NPM</li>
-          <li>React</li>
-          <li>GIT</li>
-          <li>GitHub</li>
-        </ul>
+        <HomeCards />
       </div>
     </div>
   );
 }
+
+
 
 export default Home;
