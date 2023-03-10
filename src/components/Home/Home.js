@@ -7,12 +7,12 @@ function Home() {
     <div className="container mt-5">
       <div className="row align-items-center">
         <div className="col-6">
+          <img src={avatar} alt="Avatar of a male" className="w-100"/>
+        </div>
+        <div className="col-6">
           <h1>Hi, I'm Alex</h1>
           <p>Junior Frontend Developer </p>
           <p>A recent Masters graduate looking to pursue a career in Frontend Development</p>
-        </div>
-        <div className="col-6">
-          <img src={avatar} alt="Avatar of a male" className="w-100"/>
         </div>
       </div>
       <div className="row mt-5">
