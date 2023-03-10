@@ -1,0 +1,30 @@
+.nav-item{
+    color: white;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.nav-item:hover{
+    color:white;
+}
+
+.nav-item::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: -3px;
+    left: 0;
+    border-radius: 16px;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-item:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
