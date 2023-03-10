@@ -23,9 +23,9 @@ function Footer(){
                                 href="https://github.com/AlexAins"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="footerSocialIcons"
+                                className="footerSocialLink"
                             >
-                                <AiFillGithub size={20} color={'black'}/>
+                                <AiFillGithub className="footerSocialIcons" size={20}/>
                             </a>
                         </li>
                          <li className="footerIcons mx-3">
@@ -33,9 +33,9 @@ function Footer(){
                                 href="https://linkedin.com/in/alexander-ainslie/"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="footerSocialIcons"
+                                className="footerSocialLink"
                             >
-                                <FaLinkedinIn size={20} color={'black'}/>
+                                <FaLinkedinIn className="footerSocialIcons" size={20}/>
                             </a>
                             </li>
                             <li className="footerIcons mx-3"> 
@@ -43,9 +43,9 @@ function Footer(){
                                     href={CV}
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="footerSocialIcon"
+                                    className="footerSocialLink"
                                 >
-                                    <CgFileDocument size={20} color={'black'}/>
+                                    <CgFileDocument className="footerSocialIcons" size={20}/>
                                 </a>
                             </li>
                     </ul>
