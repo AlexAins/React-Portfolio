@@ -6,7 +6,7 @@ function HomeJumbo(){
         <div className="container-fluid" id="titleScreen">
             <div className="row align-items-center">
                 <div className="col-6 justify-content-center">
-                    <img src={avatar} alt="Avatar of a male" className="w-80"/>
+                    <img src={avatar} alt="Avatar of a male" className="w-100"/>
                 </div>
                 <div className="col-6">
                     <h1 id="titleHeading">Hi, I'm <span id="titleName">Alex.</span></h1>
