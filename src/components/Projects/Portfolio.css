@@ -5,8 +5,10 @@
 
 #fullPortfolio{
     background-image: url(../../assets/cool-background.svg);
-    background-size: 100%;
+    background-size: 120%;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+}
+
+.projectImages{
+    height: 15vh;
 }

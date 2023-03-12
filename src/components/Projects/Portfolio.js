@@ -16,10 +16,8 @@ class Portfolio extends React.Component {
     return (
       <div className="container-fluid" id="fullPortfolio">
         <div className="container" id="portfolioContainer">
-          <h1>My Portfolio</h1>
-          <p>
-            Here are a few projects I've recently worked on.
-          </p>
+          <h1 className="text-center">My Portfolio</h1>
+          <p className="text-center">Here are a few projects I've recently worked on.</p>
           <div className="row g-3 mb-4">
             {projects.map((project) => {
               return (
