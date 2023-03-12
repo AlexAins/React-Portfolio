@@ -1,6 +1,7 @@
 import React from "react";
 import avatar from "../../assets/peeps-avatar-alpha.png"
 import HomeCards from "./HomeCards";
+import "./Home.css";
 
 function Home() {
   return (
