@@ -2,3 +2,10 @@
     padding-top: 66px;
     padding-bottom: 58px;
 }
+
+#fullPortfolio{
+    background-image: url(../../assets/cool-background.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}

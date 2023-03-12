@@ -14,17 +14,19 @@ class Portfolio extends React.Component {
 
   render(){
     return (
-      <div className="container" id="portfolioContainer">
-        <h1>My Portfolio</h1>
-        <p>
-          Here are a few projects I've recently worked on.
-        </p>
-        <div className="row g-3">
-          {projects.map((project) => {
-            return (
-              <ProjectCard key={project.id} {...project}/>
-            )
-          })}
+      <div className="container-fluid" id="fullPortfolio">
+        <div className="container" id="portfolioContainer">
+          <h1>My Portfolio</h1>
+          <p>
+            Here are a few projects I've recently worked on.
+          </p>
+          <div className="row g-3 mb-4">
+            {projects.map((project) => {
+              return (
+                <ProjectCard key={project.id} {...project}/>
+              )
+            })}
+          </div>
         </div>
       </div>
     );
