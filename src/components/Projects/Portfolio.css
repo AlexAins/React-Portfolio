@@ -10,5 +10,14 @@
 }
 
 .projectImages{
-    height: 15vh;
+    height: 20vh;
+}
+
+.projectCards{
+    transition: 0.4s;
+}
+
+.projectCards:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px #0258ff;
 }
