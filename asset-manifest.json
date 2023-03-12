@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.bdc06e57.css",
-    "main.js": "/react-portfolio/static/js/main.d0b857e0.js",
+    "main.css": "/react-portfolio/static/css/main.1a62498d.css",
+    "main.js": "/react-portfolio/static/js/main.e881ec41.js",
     "static/media/peeps-avatar-alpha.png": "/react-portfolio/static/media/peeps-avatar-alpha.dbc68bd96d31433bb5a4.png",
     "static/media/AlexanderAinslieCV.pdf": "/react-portfolio/static/media/AlexanderAinslieCV.b3a7af5af6666e64b648.pdf",
     "static/media/logoBlue.png": "/react-portfolio/static/media/logoBlue.fc1218a2d09489e66545.png",
@@ -9,11 +9,11 @@
     "static/media/bottom-home-background.svg": "/react-portfolio/static/media/bottom-home-background.45f29bd8845445eaedad.svg",
     "static/media/cool-background.svg": "/react-portfolio/static/media/cool-background.a51966c432de3157b699.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.bdc06e57.css.map": "/react-portfolio/static/css/main.bdc06e57.css.map",
-    "main.d0b857e0.js.map": "/react-portfolio/static/js/main.d0b857e0.js.map"
+    "main.1a62498d.css.map": "/react-portfolio/static/css/main.1a62498d.css.map",
+    "main.e881ec41.js.map": "/react-portfolio/static/js/main.e881ec41.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdc06e57.css",
-    "static/js/main.d0b857e0.js"
+    "static/css/main.1a62498d.css",
+    "static/js/main.e881ec41.js"
   ]
 }
