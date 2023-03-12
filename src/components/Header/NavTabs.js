@@ -15,7 +15,7 @@ function NavTabs() {
           Projects
         </Link>
       </li>
-      <li className="nav-items mx-5">
+      <li className="nav-items ms-4 me-5">
         <Link to="/contact" className="text-decoration-none nav-item">
           Contact Me
         </Link>

@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import projects from "./projects.json";
-import "./Projects.css";
+import "./Portfolio.css";
 
 
 class Portfolio extends React.Component {
