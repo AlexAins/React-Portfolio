@@ -15,92 +15,92 @@ function HomeCards(){
     return(
         <div className="row g-3 justify-content-md-center">
             <div className="col-md-2 col-sm-6">
-                <div className="card h-100">
+                <div className="card h-100 text-center techCard">
                     <div className="card-body">
-                        <SiHtml5 />
+                        <SiHtml5 size={75}/>
                     </div>
-                    <div className="card-footer">
-                        <p>HTML</p>
+                    <div className="card-footer p-0">
+                        <p className="m-1">HTML</p>
                     </div>
                 </div>
             </div>
             <div className="col-md-2 col-sm-6">
-                <div className="card h-100">
+                <div className="card h-100 text-center techCard">
                     <div className="card-body">
-                        <SiCss3 />
+                        <SiCss3 size={75}/>
                     </div>
-                    <div className="card-footer">
-                        <p>CSS</p>
+                    <div className="card-footer p-0">
+                        <p className="m-1">CSS</p>
                     </div>
                 </div>
             </div>
             <div className="col-md-2 col-sm-6">
-                <div className="card h-100">
+                <div className="card h-100 text-center techCard">
                     <div className="card-body">
-                        <SiJavascript />
+                        <SiJavascript size={75}/>
                     </div>
-                    <div className="card-footer">
-                        <p>JavaScript</p>
+                    <div className="card-footer p-0">
+                        <p className="m-1">JavaScript</p>
                     </div>
                 </div>
             </div>
             <div className="col-md-2 col-sm-6">
-                <div className="card h-100">
+                <div className="card h-100 text-center techCard">
                     <div className="card-body">
-                        <SiBootstrap />
+                        <SiBootstrap size={75}/>
                     </div>
-                    <div className="card-footer">
-                        <p>Bootstrap</p>
+                    <div className="card-footer p-0">
+                        <p className="m-1">Bootstrap</p>
                     </div>
                 </div>
             </div>
             <div className="col-md-2 col-sm-6">
-                <div className="card h-100">
+                <div className="card h-100 text-center techCard">
                     <div className="card-body">
-                        <SiNodedotjs />
+                        <SiNodedotjs size={75}/>
                     </div>
-                    <div className="card-footer">
-                        <p>Node.JS</p>
+                    <div className="card-footer p-0">
+                        <p className="m-1">Node.JS</p>
                     </div>
                 </div>
             </div>
             <div className="col-md-2 col-sm-6">
-                <div className="card h-100">
+                <div className="card h-100 text-center techCard">
                     <div className="card-body">
-                        <SiNpm />
+                        <SiNpm size={75}/>
                     </div>
-                    <div className="card-footer">
-                        <p>NPM</p>
+                    <div className="card-footer p-0">
+                        <p className="m-1">NPM</p>
                     </div>
                 </div>
             </div>
             <div className="col-md-2 col-sm-6">
-                <div className="card h-100">
+                <div className="card h-100 text-center techCard">
                     <div className="card-body">
-                        <SiReact />
+                        <SiReact size={75}/>
                     </div>
-                    <div className="card-footer">
-                        <p>React</p>
+                    <div className="card-footer p-0">
+                        <p className="m-1">React</p>
                     </div>
                 </div>
             </div>
             <div className="col-md-2 col-sm-6">
-                <div className="card h-100">
+                <div className="card h-100 text-center techCard">
                     <div className="card-body">
-                        <SiGit />
+                        <SiGit size={75}/>
                     </div>
-                    <div className="card-footer">
-                        <p>GIT</p>
+                    <div className="card-footer p-0">
+                        <p className="m-1">GIT</p>
                     </div>
                 </div>
             </div>
             <div className="col-md-2 col-sm-6">
-                <div className="card h-100">
+                <div className="card h-100 text-center techCard">
                     <div className="card-body">
-                        <SiGithub />
+                        <SiGithub size={75}/>
                     </div>
-                    <div className="card-footer">
-                        <p>GitHub</p>
+                    <div className="card-footer p-0">
+                        <p className="m-1">GitHub</p>
                     </div>
                 </div>
             </div>        
