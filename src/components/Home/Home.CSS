@@ -8,7 +8,7 @@
 }
 
 #titleScreen{
-    background-image: url("../../assets/cool-background.png");
+    background-image: url("../../assets/cool-background.svg");
     background-size: 120%;
     padding-top: 66px;
 }
