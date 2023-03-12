@@ -6,11 +6,12 @@ import Contact from './components/Contact/Contact';
 import Portfolio from './components/Projects/Portfolio';
 import 'bootstrap/dist/js/bootstrap.bundle'
 import Footer from './components/Footer/Footer';
+import './App.css';
 
 function App() {
   return (
     <Router>
-      <div>
+      <div id="app">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

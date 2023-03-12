@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import projects from "./projects.json";
+import "./Projects.css";
 
 
 class Portfolio extends React.Component {
@@ -13,7 +14,7 @@ class Portfolio extends React.Component {
 
   render(){
     return (
-      <div className="container">
+      <div className="container" id="portfolioContainer">
         <h1>My Portfolio</h1>
         <p>
           Here are a few projects I've recently worked on.

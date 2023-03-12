@@ -1,10 +1,11 @@
 import React from "react";
 import ContactCard from "./ContactCard";
 import ContactLinks from "./ContactLinks";
+import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="container">
+    <div className="container" id="contactContainer">
       <div className="row">
         <h1>Connect with Me</h1>
         <ContactLinks />

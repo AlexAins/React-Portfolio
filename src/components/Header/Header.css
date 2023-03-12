@@ -1,9 +1,11 @@
 .navbar{
-    background: purple;
+    background: transparent;
+    margin-bottom: -66px;
 }
 
 .navbar.active{
-    background: linear-gradient(90deg, #103CE7,#64E9FF);
+    background: #1b1a2ea9;
+    backdrop-filter: blur(15px);
 }
 
 .nav-item{
