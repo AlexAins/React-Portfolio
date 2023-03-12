@@ -51,7 +51,7 @@ function ContactForm(){
               />
             </div>
             <div className="container d-flex justify-content-center my-2">
-              <button className="btn btn-outline-success" type='submit'>Get In Touch</button>
+              <button className="btn btn-outline-info" type='submit'>Get In Touch</button>
             </div>
           </form>
         </div>
