@@ -1,14 +1,26 @@
+/* Title Screen */
+#titleScreen{
+    background-image: url("../../assets/cool-background.svg");
+    background-size: 120%;
+    padding-top: 66px;
+}
+
+#titleHeading{
+    font-size: 60px;
+}
+
+#titleName{
+    font-size: 80px;
+    text-decoration: underline;
+    color: white;
+}
+
+/* Tech Cards */
 .techCard{
     transition: 0.4s;
 }
 
 .techCard:hover{
     transform: scale(1.05);
-    box-shadow: 2px 2px #ff006e;
-}
-
-#titleScreen{
-    background-image: url("../../assets/cool-background.svg");
-    background-size: 120%;
-    padding-top: 66px;
+    box-shadow: 2px 2px #0258ff;
 }
