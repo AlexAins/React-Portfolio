@@ -18,8 +18,8 @@ function App() {
           <Route exact path="/projects" element={<Portfolio />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
-      <Footer />
     </Router>
   );
 }

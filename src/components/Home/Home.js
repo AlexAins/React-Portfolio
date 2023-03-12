@@ -17,9 +17,13 @@ function Home() {
             <p>Hopefully these help me start my career within frontend engineering !</p>
           </div>
         </div>
-        <div className="row mt-5">
-          <h2>Current Skill Set</h2>
-          <HomeCards />
+      </div>
+      <div className="container-fluid" id="homeCardContainer">
+        <div className="container">
+          <div className="row mt-5 pb-4">
+            <h2>Current Skill Set</h2>
+            <HomeCards />
+          </div>
         </div>
       </div>
     </div>

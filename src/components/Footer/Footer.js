@@ -8,8 +8,8 @@ import "./Footer.css";
 
 function Footer(){
     return(
-        <div className="container">
-            <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div className="container" id="footerContainer">
+            <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
                 <div className="col-md-4 d-flex align-items-center">
                     <h4 className="footer-title">Developed and Designed by Alexander Ainslie</h4>
                 </div>

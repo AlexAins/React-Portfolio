@@ -5,12 +5,12 @@ import "./Header.css"
 function NavTabs() {
   return (
     <ul className="navbar-nav ms-auto me-3">
-      <li className="nav-items mx-5">
+      <li className="nav-items mx-4">
         <Link to="/" className="text-decoration-none nav-item">
           Home
         </Link>
       </li>
-      <li className="nav-items mx-5">
+      <li className="nav-items mx-4">
         <Link to="/projects" className="text-decoration-none nav-item">
           Projects
         </Link>

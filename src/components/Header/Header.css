@@ -38,3 +38,14 @@
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+@media only screen and (max-width: 767px){
+    .nav-item{
+        color: #0258ff;
+    }
+
+    .navbar{
+        background: #1b1a2ea9;
+        backdrop-filter: blur(15px);
+    }
+}

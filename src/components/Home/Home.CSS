@@ -2,6 +2,7 @@
 #titleScreen{
     background-image: url("../../assets/cool-background.svg");
     background-size: 120%;
+    background-repeat: no-repeat;
     padding-top: 66px;
 }
 
@@ -13,6 +14,15 @@
     font-size: 80px;
     text-decoration: underline;
     color: white;
+}
+
+/* Tech Card Container */
+#homeCardContainer{
+    background-image: url("../../assets/bottom-home-background.svg");
+    background-position-y: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 58px;
 }
 
 /* Tech Cards */
